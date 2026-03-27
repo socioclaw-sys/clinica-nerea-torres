@@ -170,7 +170,8 @@
             align-items: center;
             text-align: center;
             padding: 6rem 2rem;
-            background: var(--blanco-roto);
+            background: linear-gradient(rgba(250, 248, 245, 0.85), rgba(250, 248, 245, 0.85)), 
+                        url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=1600&q=80') center/cover no-repeat;
             position: relative;
         }
 
@@ -469,7 +470,8 @@
            PHILOSOPHY
            ═══════════════════════════════════════ */
         .philosophy {
-            background: var(--negro);
+            background: linear-gradient(rgba(26, 23, 20, 0.9), rgba(26, 23, 20, 0.9)),
+                        url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1600&q=80') center/cover no-repeat;
             color: var(--blanco-roto);
             text-align: center;
         }
@@ -835,10 +837,7 @@
     <!-- NAVIGATION -->
     <nav class="nav" id="nav">
         <a href="#" class="nav-logo">
-            <svg class="iso" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <text x="4" y="24" font-family="Cormorant Garamond, serif" font-size="20" font-weight="300" fill="#2C2824" letter-spacing="1">NT</text>
-            </svg>
-            NEREA TORRES
+            <img src="images/logo.jpg" alt="Nerea Torres" style="height: 40px; width: auto; filter: brightness(0);">
         </a>
         <ul class="nav-links" id="navLinks">
             <li><a href="#inicio">Inicio</a></li>
@@ -873,7 +872,7 @@
         <div class="section-inner">
             <div class="about-grid">
                 <div class="about-image fade-in">
-                    <img src="images/clinica.jpg" alt="Clínica Nerea Torres" onerror="this.style.display='none'">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80" alt="Clínica Nerea Torres">
                 </div>
                 <div class="about-text fade-in">
                     <p class="label">Sobre Nosotros</p>
@@ -919,49 +918,37 @@
             </div>
             <div class="services-grid">
                 <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48"><circle cx="24" cy="20" r="10"/><path d="M12 40c0-8 5-12 12-12s12 4 12 12"/><circle cx="24" cy="20" r="3"/></svg>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" alt="Acné" style="width:100%; height:200px; object-fit:cover; margin-bottom:1.5rem;">
                     <h3>Tratamiento Acné</h3>
                     <p>Protocolos personalizados para cada tipo de acné: comedónico, inflamatorio, quístico y cicatricial. Combinamos peelings, luz pulsada y terapias tópicas avanzadas.</p>
                     <a href="#contacto" class="service-link">Consultar →</a>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48"><path d="M24 8c-4 0-8 2-10 6s-2 10 0 14 6 8 10 8 8-4 10-8 2-10 0-14-6-6-10-6z"/><path d="M18 28c-2 1-4 3-4 6"/><path d="M30 28c2 1 4 3 4 6"/></svg>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&q=80" alt="Antiaging" style="width:100%; height:200px; object-fit:cover; margin-bottom:1.5rem;">
                     <h3>Antiaging</h3>
                     <p>Tratamientos de rejuvenecimiento facial: toxina botulínica, ácido hialurónico, biorevitalizadores, hilos tensores y terapias de regeneración celular.</p>
                     <a href="#contacto" class="service-link">Consultar →</a>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="14"/><path d="M24 10v28"/><path d="M10 24h28"/><circle cx="24" cy="24" r="6"/></svg>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80" alt="Despigmentantes" style="width:100%; height:200px; object-fit:cover; margin-bottom:1.5rem;">
                     <h3>Despigmentantes</h3>
                     <p>Tratamientos para manchas, melasma e hiperpigmentación. Peelings despigmentantes, mesoterapia y protocolos de mantenimiento con cosmética médica.</p>
                     <a href="#contacto" class="service-link">Consultar →</a>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48"><path d="M8 24h32"/><path d="M24 8v32"/><path d="M14 14l20 20"/><path d="M34 14L14 34"/></svg>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80" alt="Láser" style="width:100%; height:200px; object-fit:cover; margin-bottom:1.5rem;">
                     <h3>Láser y Luz Pulsada</h3>
                     <p>Depilación definitiva, tratamiento de vascularizaciones, rejuvenecimiento con láser fraccionado y fototerapia avanzada.</p>
                     <a href="#contacto" class="service-link">Consultar →</a>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48"><path d="M12 36c0-8 4-14 12-14s12 6 12 14"/><circle cx="24" cy="16" r="6"/><path d="M20 14c0-4 2-6 4-6s4 2 4 6"/></svg>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&q=80" alt="Peelings" style="width:100%; height:200px; object-fit:cover; margin-bottom:1.5rem;">
                     <h3>Peelings Médicos</h3>
                     <p>Renovación celular con ácidos específicos: glicólico, salicílico, TCA y Jessner. Peelings personalizados según indicación y fototipo.</p>
                     <a href="#contacto" class="service-link">Consultar →</a>
                 </div>
                 <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48"><rect x="10" y="10" width="28" height="28" rx="4"/><path d="M18 20h12"/><path d="M18 24h8"/><path d="M18 28h10"/></svg>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80" alt="Mesoterapia" style="width:100%; height:200px; object-fit:cover; margin-bottom:1.5rem;">
                     <h3>Mesoterapia Facial</h3>
                     <p>Cócteles vitaminados y principios activos aplicados mediante microinyecciones para hidratación profunda, luminosidad y firmeza.</p>
                     <a href="#contacto" class="service-link">Consultar →</a>
@@ -1079,7 +1066,7 @@
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-brand">
-                <h3>Nerea Torres</h3>
+                <img src="images/logo-horizontal.jpg" alt="Nerea Torres" style="height: 30px; width: auto; filter: brightness(0) invert(1); margin-bottom: 1rem;">
                 <p>Clínica médico estética dedicada a realzar tu belleza natural con los más altos estándares de calidad y profesionalidad.</p>
             </div>
             <div class="footer-col">
